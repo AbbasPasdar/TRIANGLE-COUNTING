@@ -72,7 +72,7 @@ def MR_ApproxTCwithSparkPartitions(edges,C):
     
 def main():
     # CHECKING NUMBER OF CMD LINE PARAMTERS
-    assert len(sys.argv) == 4, "Usage: python3 G004HW1.py 1 1 facebook_large.txt"
+    assert len(sys.argv) == 4, "Usage: python3 TriangleCounting.py 1 1 facebook_large.txt"
 
 	# SPARK SETUP
     conf = SparkConf().setAppName('test')
